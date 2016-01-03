@@ -65,7 +65,6 @@ unsigned long counter = millis();  // used for blinking BOARD_LED ('I'm alive')
 
 //-------------------------- MSGEQ7 Chip function defines -----------------------------------
 
-int bands[7];               // store band values in these arrays
 #define MSGEQ7_STB  4       // Active HIGH Strobe PW 18 usec min. Strobe to Strobe delay 72 usec min
                             // Output settling time from Strobe 36 usec min
 #define MSGEQ7_RST  5       // Active HIGH Reset PW 100 nsec min. Reset to first Strobe 72 usec min
@@ -196,10 +195,10 @@ void readMSGEQ7Data ( void )
      if ( band >= 1 && band <= 5 )  {
         // The value runs from 0 to 1023 (max)
         // Convert to range MAX_DELAY (min brightness) to MIN_DELAY (max brightness)
-        newPins[band].pinDelay = map(val,0,1023,MAX_DELAY,MIN_DELAY); // store left band reading
+        newPins[band].pinDelay = map(val,0,1023,MAX_DELAY,MIN_DELAY);
      }
      digitalWrite(MSGEQ7_STB,HIGH); 
-     delayMicroseconds(1); //
+     delayMicroseconds(1);
      }
      
   sortNewPinsAndCopyToPins(true);
