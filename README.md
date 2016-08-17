@@ -1,10 +1,10 @@
 #Synopsis
 
-**Lampdimmer.ino**: An Arduino controlled, five channel AC lamp dimmer.
+**Lampdimmer.ino**: An Arduino controlled, five channel AC lamp controller. 
 
 #Motivation
 
-This project came about from the need to control more than one set of AC lamps.  
+This project came about from the need to control more than one set of AC lamps .  
 
 #Installation
 
