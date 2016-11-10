@@ -8,7 +8,7 @@ This project came about from the need to control more than one set of AC lamps .
 
 #Installation
 
-Download the INO file to your Sketchbook directory and run the Arduino IDE to download and program to the target processor. Refer to the schematic (**Lampdimmer.png**) for the hardware description.
+Download the INO file to your Sketchbook directory and run the Arduino IDE to download and program to the target processor. Refer to the schematics **Lampdimmer1.png** and **Lampdimmer2.png** located under the **Design** folder for the hardware description.
 
 #API Reference
 
