@@ -14,7 +14,7 @@ Download the INO file to your Sketchbook directory and run the Arduino IDE to do
 
 ![alt tag](https://github.com/Billwilliams1952/Arduino-Five-Channel-Music-to-AC-Lamp-Synchronizer/blob/master/Design/lampdimmer.png?raw=true)
 
-![alt tag]()
+![alt tag](https://github.com/Billwilliams1952/Arduino-Five-Channel-Music-to-AC-Lamp-Synchronizer/blob/master/Design/lampdimmer2.png?raw=true)
 
 ##API Reference
 
