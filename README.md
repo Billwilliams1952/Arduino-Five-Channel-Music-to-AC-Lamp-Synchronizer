@@ -2,6 +2,8 @@
 
 **Lampdimmer.ino**: An Arduino controlled, five channel AC lamp controller. 
 
+This sketch controls five separte dimmier channels using TRIACs. More may be added but there will be a point at which the interrupt service routine can't process them all fast enough. Why only five bands for this test? It's all the hardware I had. The MSGEQ7 seven channel equalizer chip is used to convert the audio to seven discrete frequency bands: 63Hz, 160Hz, 400Hz, 1kHz, 2.5kHz, 6.25kHz and 16kHz. The sketch only uses five: 160 Hz, 400 Hz, 1 KHz, 2.5 KHz, 6.25 KHz
+
 ##Motivation
 
 This project came about from the need to control more than one set of AC lamps .  
