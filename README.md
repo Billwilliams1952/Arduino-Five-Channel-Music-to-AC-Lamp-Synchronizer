@@ -10,6 +10,12 @@ This project came about from the need to control more than one set of AC lamps .
 
 Download the INO file to your Sketchbook directory and run the Arduino IDE to download and program to the target processor. Refer to the schematics **Lampdimmer1.png** and **Lampdimmer2.png** located under the **Design** folder for the hardware description.
 
+**Schematics**
+
+![alt tag](https://github.com/Billwilliams1952/Arduino-Five-Channel-Music-to-AC-Lamp-Synchronizer/blob/master/Design/lampdimmer.png?raw=true)
+
+![alt tag]()
+
 ##API Reference
 
 This program uses the Arduino API. No special libraries are required. It has been tested on the Arduino Micro
